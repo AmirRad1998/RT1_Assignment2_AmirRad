@@ -44,7 +44,7 @@ Calling the service of the nodeB in a different terminal:
 ![7](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/7_Calling_Service_NodeB.png?raw=true "7")
 
 NodeB Terminal:
-![8](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/7_Calling_Service_NodeB.png?raw=true "8")
+![8](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/8_NodeB.png?raw=true "8")
 
 
 #### Node C:
