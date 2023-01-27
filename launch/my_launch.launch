@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="print_distance" value= "7" />
+    <include file="$(find assignment_2_2022)/launch/assignment1.launch" />
+    <node pkg="amirpackage1" type="mynode1.py" name="mynode1" launch-prefix="gnome-terminal --command" />
+    <node pkg="amirpackage1" type="mynode2.py" name="mynode2" launch-prefix="gnome-terminal --command" />
+    <node pkg="amirpackage1" type="mynode3.py" name="mynode3" launch-prefix="gnome-terminal --command" />   
+</launch>
