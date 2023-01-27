@@ -1,6 +1,6 @@
-## Research Track 1 Assignment 2 (ROS)
+# Research Track 1 Assignment 2 (ROS)
 
-### Description:
+## Description:
 
 In this assignment, the robot movements in a two-dimensional environment are simulated by implementation of ROS. Moreover, the Rviz and Gazebo are used for the graphical interfaces. So in general,  in the simulation environment, there is a robot and some walls as the obstacles that robot will avoid them using the defined functions. 
 
@@ -11,7 +11,7 @@ Rviz environment:
 ![5](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/5_Rviz.png?raw=true "5")
 
 
-### How to run the assignment:
+## How to run the assignment:
 First, the terminal should be open or directed into the workspace root. My workspace name is “my_workspace”. 
 
 ![1](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/1_cd_workspace.png?raw=true "1")
@@ -26,9 +26,9 @@ After running that, three terminals will be opened.
 ![3](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/3_Three_TerminalsScreenshot%20from%202023-01-27%2021-20-23.png?raw=true "3")
 
 
-### The New Nodes:
+## The New Nodes:
 There are three new nodes defined in this a assignment:
-#### Node A:
+### Node A:
 In this node, the user enters two inputs:
 -	Desired X position of the robot target
 -	Desired Y position of the robot target
@@ -37,7 +37,7 @@ Simultaneously, this node also publishes the robot position and velocity as a cu
 
 ![6](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/6_NodeA.png?raw=true "6")
 
-#### Node B:
+### Node B:
 This node, is responsible for printing the number of goals that are reached and cancelled by the robot, using service. To get the results of this node, we need to call it in a different terminal. In this project, the name of this service is: “target_results”.
 
 Calling the service of the nodeB in a different terminal:
@@ -47,7 +47,7 @@ NodeB Terminal:
 ![8](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/8_NodeB.png?raw=true "8")
 
 
-#### Node C:
+### Node C:
 This purpose of this node is to calculate and print distance of the robot from the target and the robot’s average speed. So, in this node there are two inputs and two outputs:
 Inputs:
 -	Robot’s current position (by subscribing the Node A)
@@ -65,7 +65,7 @@ In addition, a launch file is also created to run the whole project. Therefore, 
 
  
 
-## Node A Flowchart:
+# Node A Flowchart:
 
 ![0](https://github.com/AmirRad1998/RT1_Assignment2_AmirRad/blob/main/Photos/0_FlowChart.png?raw=true "0")
 
